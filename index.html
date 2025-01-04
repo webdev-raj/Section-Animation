@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Section-Animation</title>
+</head>
+
+<body>
+    <div class="min-h-screen w-full bg-black font-lobster">
+        <main>
+            <section id="text-container" class="pointer-events-none h-screen w-full flex items-center justify-center fixed top-0 left-0">
+                <h1 class="font-lobster text-[10rem] text-center leading-none tracking-tight text-white max-md:text-5xl">Step Into the
+                    <br> Anime Universe
+                </h1>
+            </section>
+            <section class="h-screen w-full"></section>
+            <section id="container" class="min-h-screen flex items-center justify-center flex-col">
+                <div class="images">
+                    <div class="rounded-xl overflow-hidden imgCard top-[10vh] h-[80vh] w-[80vw] mb-28 sticky">
+                        <img class="h-full w-full object-cover object-center"
+                            src="https://images.alphacoders.com/134/thumbbig-1343747.webp" alt="">
+                    </div>
+                    <div class="rounded-xl overflow-hidden imgCard h-[80vh] w-[80vw] mb-28 sticky top-[10vh]">
+                        <img class="h-full w-full object-cover object-center"
+                            src="https://images2.alphacoders.com/136/thumbbig-1369365.webp" alt="">
+                    </div>
+                    <div class="rounded-xl overflow-hidden imgCard h-[80vh] w-[80vw] mb-28 sticky top-[10vh]">
+                        <img class="h-full w-full object-cover object-center"
+                            src="https://images7.alphacoders.com/611/thumbbig-611138.webp" alt="">
+                    </div>
+                    <div class="rounded-xl overflow-hidden imgCard h-[80vh] w-[80vw] mb-28 sticky top-[10vh]">
+                        <img class="h-full w-full object-cover object-center"
+                            src="https://imgs.search.brave.com/QWeszPt4j1Im5xcmBFRks_pwZeNCQh_v-rfRRx4mqWY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXIuZm9yZnVu/LmNvbS9mZXRjaC9k/NS9kNWJlODYzNWFk/NDRmMDA0NWI5MDQ2/N2I5NWZiYTU5Yi5q/cGVn" alt="">
+                    </div>
+                    <div class="rounded-xl overflow-hidden h-[80vh] w-[80vw] mb-28 relative z-10">
+                        <img class="h-full w-full object-cover object-center"
+                            src="https://images8.alphacoders.com/132/thumb-440-1321460.webp" alt="">
+                    </div>
+                </div>
+            </section>
+            <footer class="h-60 w-full flex items-center justify-center">
+                <h1 class="text-white text-8xl scrollText cursor-pointer text-center">footer</h1>
+            </footer>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
